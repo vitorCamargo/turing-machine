@@ -27,6 +27,7 @@ A *Turing Machine* is a theoretical model of a machine that manipulates symbols 
   Where *'tape'* indicates the final tape content, *'current_state'* indicates the state the machine is in at the end of execution, *'head_tape'* indicates the final position of the tape head and *'counter'* is the counter to prevent the machine from going into infinite *loop*.
   
   In addition, at the exit of the program there will be a line indicating the final result of the Machine execution, which can be:
+  
   `0: Computing done and accepted.`  
   `-1: Computation terminated and rejected.`  
   `-2: Computation didn't terminate. (Looping Interruption)`  
